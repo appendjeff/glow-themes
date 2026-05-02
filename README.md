@@ -12,7 +12,7 @@ Custom themes for [glow](https://github.com/charmbracelet/glow), a terminal mark
 - **Code blocks** — `╭─ code ──╮` border, green on dark background
 - **Inline code** — green on dark background
 
-![Example rendering with pager](example_rendering_with_pager.png)
+https://github.com/user-attachments/assets/60ba331d-1cec-48f4-99e7-0106c3d125aa
 
 ## Installation
 
