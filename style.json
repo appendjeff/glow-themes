@@ -95,7 +95,8 @@
     "block_suffix": "\n╰─────────────────────────────────────────────────────────╯\n",
     "indent": 2,
     "color": "120",
-    "background_color": "235"
+    "background_color": "235",
+    "theme": "dracula"
   },
   "table": {
     "center_separator": "┼",
