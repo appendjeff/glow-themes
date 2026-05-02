@@ -1,0 +1,105 @@
+{
+  "document": {
+    "block_prefix": "\n",
+    "block_suffix": "\n",
+    "color": "252",
+    "margin_left": 2,
+    "margin_right": 2
+  },
+  "block_quote": {
+    "indent": 1,
+    "indent_token": "│ ",
+    "color": "244",
+    "italic": true
+  },
+  "paragraph": {
+    "block_suffix": "\n"
+  },
+  "list": {
+    "color": "252",
+    "level_indent": 2
+  },
+  "heading": {
+    "block_suffix": "\n"
+  },
+  "h1": {
+    "block_prefix": "\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n  ",
+    "block_suffix": "\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n",
+    "color": "39",
+    "bold": true,
+    "upper": true
+  },
+  "h2": {
+    "block_prefix": "\n",
+    "block_suffix": "\n────────────────────────────────────────────────────────────\n",
+    "color": "105",
+    "bold": true
+  },
+  "h3": {
+    "block_prefix": "\n",
+    "block_suffix": "\n",
+    "color": "212",
+    "bold": true,
+    "prefix": "▸ "
+  },
+  "h4": {
+    "block_prefix": "\n",
+    "block_suffix": "\n",
+    "color": "213",
+    "bold": true,
+    "prefix": "◆ "
+  },
+  "h5": {
+    "block_prefix": "\n",
+    "block_suffix": "\n",
+    "color": "245",
+    "bold": true,
+    "prefix": "◇ "
+  },
+  "h6": {
+    "block_prefix": "\n",
+    "block_suffix": "\n",
+    "color": "245",
+    "prefix": "◇ "
+  },
+  "text": {},
+  "strikethrough": {
+    "crossed_out": true
+  },
+  "emph": {
+    "color": "249",
+    "italic": true
+  },
+  "strong": {
+    "bold": true,
+    "color": "255"
+  },
+  "hr": {
+    "color": "240",
+    "format": "\n────────────────────────────────────────────────────────────\n"
+  },
+  "item": {
+    "block_prefix": "• "
+  },
+  "enumeration": {
+    "block_prefix": ". "
+  },
+  "code": {
+    "prefix": " ",
+    "suffix": " ",
+    "color": "120",
+    "background_color": "235"
+  },
+  "code_block": {
+    "block_prefix": "\n╭─ code ──────────────────────────────────────────────────╮\n",
+    "block_suffix": "\n╰─────────────────────────────────────────────────────────╯\n",
+    "indent": 2,
+    "color": "120",
+    "background_color": "235"
+  },
+  "table": {
+    "center_separator": "┼",
+    "column_separator": "│",
+    "row_separator": "─"
+  }
+}
