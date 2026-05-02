@@ -9,6 +9,16 @@ Custom themes for [glow](https://github.com/charmbracelet/glow), a terminal mark
 ## Installation
 
 1. Clone this repo to `~/Code/glow-themes`
+
+### macOS (Homebrew)
+
+2. Set the style path in `~/Library/Preferences/glow/glow.yml`:
+   ```yaml
+   style: "/Users/jeff/Code/glow-themes/style.json"
+   ```
+
+### Linux (snap)
+
 2. Symlink the style into the glow snap config:
    ```
    ln -s ~/Code/glow-themes/style.json ~/snap/glow/common/style.json
