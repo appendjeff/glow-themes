@@ -45,7 +45,7 @@ Opens a markdown plan in a new named cmux tab using `glow -p` for pager mode. Th
 FILE="$(realpath plan.md)"
 TITLE=$(grep -m1 '^# ' "$FILE" 2>/dev/null | sed 's/^# //')
 [ -z "$TITLE" ] && TITLE=$(basename "$FILE" .md)
-SURFACE=$(cmux new-surface)
+SURFACE=$(cmux new-surface | grep -o 'surface:[0-9]*')
 cmux send --surface "$SURFACE" "glow -p $FILE"
 cmux send-key --surface "$SURFACE" "Enter"
 cmux rename-tab --surface "$SURFACE" "$TITLE"
