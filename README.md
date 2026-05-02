@@ -12,7 +12,8 @@ Custom themes for [glow](https://github.com/charmbracelet/glow), a terminal mark
 - **Code blocks** — `╭─ code ──╮` border, green on dark background
 - **Inline code** — green on dark background
 
-https://github.com/user-attachments/assets/60ba331d-1cec-48f4-99e7-0106c3d125aa
+##### Demo
+https://github.com/user-attachments/assets/d98c888a-189d-4a9d-9385-0842bf7f320b
 
 ## Installation
 
